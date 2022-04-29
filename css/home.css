@@ -70,6 +70,13 @@ body:after {
 .home header .double-line:before { bottom: 100%; }
 .home header .double-line:after { top: 100%; }
 .home header img { max-width: 100%; }
+.home header a.button-app { 
+  margin: 3rem 0; 
+  border-radius: 100px; 
+  font-size: 36px; 
+  padding: 3rem 4rem;
+  display: flex; align-items: center; justify-content: center;
+}
 
 
 
