@@ -1,0 +1,115 @@
+/*
+  _______ _    _ ______ __  __ ______
+ |__   __| |  | |  ____|  \/  |  ____|
+    | |  | |__| | |__  | \  / | |__
+    | |  |  __  |  __| | |\/| |  __|
+    | |  | |  | | |____| |  | | |____
+    |_|  |_|  |_|______|_|  |_|______|
+
+*/
+
+/* Material Design Components */
+@import "https://unpkg.com/material-components-web@0.33.0/dist/material-components-web.min.css";
+
+/* Fonts + Icons */
+@import "https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700,900";
+@import "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+/* Oneezy CSS */
+@import "https://rawgit.com/oneezy/oneezy-css/master/oneezy-css.css";
+
+/* Oneezy JS */
+@import "https://rawgit.com/oneezy/oneezy-js/master/app/components/data-clipboard/data-clipboard.css";
+@import "https://rawgit.com/oneezy/oneezy-js/master/app/components/mdc-tabs/mdc-tabs.css";
+@import "https://rawgit.com/oneezy/oneezy-js/master/app/components/data-accordion/data-accordion.css";
+@import "https://rawgit.com/oneezy/oneezy-js/master/app/components/data-count/data-count.css";
+
+
+:root { 
+    /* My Theme 
+    ******************************************/
+
+    /* Theme (Lite) */
+    --theme-primary:    #0E0E0F;
+    --theme-secondary:  #3dafd9;
+    --theme-tertiary:   #494D54;
+    --theme-accent:     #ff9900;
+    
+    /* Theme (Dark) */
+    --bg-lite-primary:       #fff;
+    --bg-lite-secondary:     #F5F4F4;
+    --bg-dark-primary:       #323031;
+
+    /* Theme */
+    --text-lite-primary:       #0E0E0F;
+    --text-lite-secondary:     #222222;
+    --text-dark-primary:       #323031;
+
+    /* Typography */
+    --display-1:      14px;
+    --display-2:      14px;
+    --display-3:      14px;
+    --display-4:      14px;
+    --title:          14px;
+    --heading:        14px;
+    --subheading:     14px;
+    --body-1:         14px;
+    --body-2:         14px;
+    --button:         14px;
+    --caption:        14px;
+    
+    /* Transparency */
+    --scrim:  rgba(0,0,0,.64);
+
+    /* Icons */
+    --chrome-start:      #777;
+    --chrome-end:        #fff;
+    --code-start:        #00e676;
+    --code-end:          #fff;
+    --email-start:       #ff0000;
+    --email-end:         #fff;
+    --discussion-start:  #8c9eff;
+    --discussion-end:    #fff;
+    --patreon-start:     #ff9900;
+    --patreon-end:       #fff;
+
+    /* MDC Theme (overwrite) 
+    ******************************************/
+    --mdc-theme-primary: #03a9f4;
+    --mdc-theme-primary-light: #67daff;
+    --mdc-theme-primary-dark: #007ac1;
+    --mdc-theme-secondary: #ffb300;
+    --mdc-theme-secondary-light: #ffe54c;
+    --mdc-theme-secondary-dark: #c68400;
+    --mdc-theme-background: #fff;
+
+    /* Notifications */
+    --mdc-theme-success:   #00e676;
+
+    /* Dark (transparency) */
+    --mdc-theme-dark:            rgba(0,0,0, .87);
+    --mdc-theme-dark-dark:       rgba(0,0,0, .54);
+    --mdc-theme-dark-disabled:   rgba(0,0,0, .38);
+    --mdc-theme-dark-divider:    rgba(0,0,0, .12);
+
+    /* Lite (transparency) */
+    --mdc-theme-lite:            rgba(255,255,255,   1);
+    --mdc-theme-lite-lite:       rgba(255,255,255,  .7);
+    --mdc-theme-lite-disabled:   rgba(255,255,255,  .5);
+    --mdc-theme-lite-divider:    rgba(255,255,255, .12);
+}
+
+
+/* Global Styles */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { background: #f2f2f2; font-family: Roboto, Arial, sans-serif; height: 100vh; overflow: hidden; }
+/* header { position: fixed; top: 0; left: 0; right: 0; background: black; color: white; padding: 1rem; z-index: 1; } */
+/* main { height: calc(100% - 70px); margin: 70px 0 0; overflow: hidden; } */
+
+article {  }
+h1 { font-weight: 300; }
+h2 { font-weight: 400; color: yellow; font-size: 20px; }
+img { max-width: 100%; display: block; position: relative; }
+a { text-decoration: none; }
